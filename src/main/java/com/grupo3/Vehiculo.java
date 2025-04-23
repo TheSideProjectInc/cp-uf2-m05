@@ -31,7 +31,6 @@ public class Vehiculo {
     }
 
     public boolean esIgual(Vehiculo otro) {
-        
+        return this.marca.equals(otro.marca) && this.modelo.equals(otro.modelo);
     }
-    
 }
