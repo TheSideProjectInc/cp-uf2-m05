@@ -31,7 +31,7 @@ public class Vehiculo {
     }
 
     public boolean esMarca(String marca) {
-    
+        return this.marca.equalsIgnoreCase(marca);
     }
     
 }
