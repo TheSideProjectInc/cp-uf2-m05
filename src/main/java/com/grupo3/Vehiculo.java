@@ -29,4 +29,9 @@ public class Vehiculo {
         System.out.println("Marca: " + marca);
         System.out.println("Modelo: " + modelo);
     }
+
+    public boolean esMarca(String marca) {
+    
+    }
+    
 }
