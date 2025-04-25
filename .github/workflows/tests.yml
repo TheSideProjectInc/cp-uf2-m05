@@ -4,8 +4,6 @@ on:
   push:
     branches:
       - main
-      - feature
-      - feature/Billy
 
 jobs:
   test:
@@ -19,6 +17,7 @@ jobs:
         uses: actions/setup-java@v3
         with:
           java-version: '23'
+          distribution: 'temurin'
 
       - name: Verify Java version
         run: java -version
